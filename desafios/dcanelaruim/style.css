@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Pacifico&display=swap');
+body{
+    background-image: linear-gradient(to left, #6B94FF,#61E8DF);
+    text-align: center;
+    height: 100%;
+    
+
+}
+main{
+    
+    text-align: center;
+    padding: 40px;
+    box-shadow: 30px 30px 30px #61E8DF;
+
+    background-image: url(fotos/japazera.png);
+}
+
+h1{
+    color: #6BFFCB;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+p {
+    font-family: 'Pacifico', cursive;
+
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+    
+
+}

@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root{
+    --cor1: #4677B3;
+    --cor2 :#96C5FF;
+    --cor3 :#7DB7FF;
+    --cor4 :#B38634;
+    --cor5 :#FFD17D;
+    --fonte1 :'fontetue';
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor1);
+    
+}
+/*HEADER */
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2));
+    padding: 40px;
+    color: white;
+    
+}
+
+header h1{
+    font-size: 3em;
+    padding: 20px 0px 20px 0px;
+
+}
+header p{
+    display: block;
+    font-size: 1.5em;
+    line-height: 1em;
+    padding: 10px;
+}
+/*HEADER */
+
+/*NAV*/
+nav.menu{
+    text-align: left;
+    background-color: var(--cor2);   
+
+}
+
+nav.menu>a{
+    font-size: 1.5em;
+    color: var(--cor4);
+    text-decoration: none;
+    margin-right: 20px
+
+}
+
+nav.menu>a:hover{
+    padding: 3px;
+    background-color: var(--cor5)
+}
+
+/*NAV*/
+
+/*MAIN*/
+
+main{
+    background-color: rgb(255, 255, 255);
+    max-width: 1500px;
+    min-width: 200px;
+    margin: auto;
+    font-size: 1.5em;
+    
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    
+    
+}
+
+main h1{
+    font-family: 'Nosifer', sans-serif;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+main h2{
+    font-family: 'Nosifer', sans-serif;
+    font-weight: normal;
+    margin:0px;
+    background-image: linear-gradient(to right,#7db7ff9f, #96c5ff10 )
+    
+}
+
+/*MAIN*/
+
+/*IMAGENS*/
+
+div.fundo{
+    text-align: center;
+    margin: auto;
+}
+
+div.fundo>picture>img{
+    max-width:800px ;
+    max-height: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+.tue>picture>img{
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    
+    
+}
+
+.teto>img{
+    display: block;
+    max-width: 800px;
+    max-height: 800px;
+    margin: auto;
+    width: 100%;
+}
+/*IMAGENS*/
+
+/*VIDEOS*/
+.video{
+    background-color: var(--cor2);
+    margin: 70px 0px;
+    padding-bottom: 60%;
+    position: relative;
+    
+}
+
+.video>iframe{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+
+/*VIDEOS*/
+
+
+/*Tabelas*/
+
+.tabela{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    padding: 0px 0px 150px 0px ;
+    
+}
+
+.tabela>h3{
+    padding: 10px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 2em
+    
+}
+
+.tabela>p{
+    font-size: 1.5em;
+
+}
+.tabela>ul{
+    text-align: center;
+    list-style-position: inside;
+    padding: 20px 0px;
+    columns: 2;
+    font-size: 1.5em;
+}
+
+.tabela>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.tabela>ul>li>a:hover{
+    background-color: #4677B3;
+}
+/*Tabelas*/
+
+/*Rodape*/
+    
+footer{
+    background-color: var(--cor4);
+    
+}
+footer>p{
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+}
+footer>p>a{
+    text-decoration: none;
+    color: white;
+    
+}
+footer>p>a:hover{
+    background-color: #7DB7FF;
+    color: black;
+    
+}
+/*Rodape*/

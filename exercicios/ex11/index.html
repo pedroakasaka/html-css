@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html 5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+        <h1>reprozindo audio</h1>
+        <p>vamos aprender a reproduzir audio em html5</p>
+        
+        <audio preload="metadata" controls>
+            <source src="midia/zoro.mp3" type="audio/mpeg">
+            <p>infelizmente seu navegador nao consegue reproduzir audio clique <a href="midia/zoro.mp3">aqui</a> para baixar o arquivo</p> 
+            
+        </audio>
+
+    </picture>
+    
+</body>
+</html>

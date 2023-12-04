@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype); 
+}
+body{
+    margin: 0px;
+    background-color: #7e9269;
+}
+
+header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 70px;
+    background-image: linear-gradient(to bottom,#79AB46, #AFF765);
+    
+}
+
+div.menu{
+    color: white;
+    background-color: #AFF765;
+    margin: 0px;
+}
+
+div.menu>a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+div.menu>a:hover{
+    color: red;
+}
+
+main.principal{
+    min-width: 300px;
+    max-width: 1000px;
+    border-radius: 5px;
+    text-indent: 50px;
+    text-align: center; 
+    color: rgb(40, 65, 4);
+    background-color: white;
+    padding: 1px; 
+    margin: auto;  
+       
+}
+
+main img{
+    width: 100%;
+}
+
+main>h2.primeira{
+    background-image: linear-gradient(to right, #79ab466c, #93d15544);
+    font-family: idroid;
+    text-align: left;
+}
+
+main>p{
+    text-align: left;
+}
+
+main>h1{
+    font-family: idroid;
+    text-align: left;
+}
+
+
+
+div.video{
+    
+    background-color: #5cda57;
+    position: relative;
+    padding-bottom: 50%;
+    
+}
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+}
+
+div.menu{
+    text-indent: 20px;
+}
+
+p#topo{
+    text-align: center;
+}
+
+.tabela>h1{
+    text-indent: 0px;
+    text-align: left;
+    background-color: #4C6B2C;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.tabela{
+    background-color:#c4e0a7 ;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+ul{
+    display: inline-block;
+    
+}
+.tabela>ul#esquerda{
+    
+    text-align: left;
+}
+
+.tabela>ul#direta{
+    
+    text-align: right;
+}
+
+.tabela>p{
+    text-align: left;
+    text-indent: 0px;
+}
+
+footer{
+    background-color: #4C6B2C;
+    text-align: center;
+    margin: 0px 0px -16px 0px;;    
+    
+}
+
