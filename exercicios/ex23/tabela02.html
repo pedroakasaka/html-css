@@ -11,6 +11,7 @@
 
         table{
             width: 400px;
+            position: relative;
             
             
         }
@@ -31,6 +32,12 @@
 
         td.num{
             text-align: right;
+        }
+
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
         }
     </style>
 </head>
@@ -99,5 +106,6 @@
             </tr>
         </tfoot>
     </table>
+
 </body>
 </html>
